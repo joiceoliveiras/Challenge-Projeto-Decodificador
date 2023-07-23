@@ -1,1 +1,49 @@
-<h1>ola mundo</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Encriptador challenge</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Img/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="secao1">
+            <div class="conteudocaixatexto">
+                <textarea placeholder="Digite o texto aqui" class="caixatexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="Img/alerta.svg" alt="alerta">
+                <p>Apenas letras minúsculas e sem acento</p>
+            </div>
+            <div class="conteudo-botoes">
+                <input type="button" class="btn-criptografar" value="Criptografar">
+                <input type="button" class="btn-descriptografar" value="Descriptografar">
+            </div>
+        </section>
+        <section class="secao2">
+            <div class="conteudoboneco">
+                <img src="Img/boneco.svg" alt="boneco">
+            </div>
+            <div class="conteudo-paragrafo">
+                <h3>Nenhuma mensagem foi <br> encontrada</h3>
+                <p>Digite o texto que deseja criptografar ou <br> descriptografar.</p>
+            </div>
+            <div class="conteudo-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="conteudo-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
